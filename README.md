@@ -33,7 +33,7 @@ Usually, programs creating maps by stitching together separated drone images are
 The program executable file is `FieldOwl/bin/Debug/FieldOwl.exe`.
 
 In this example a 2ha field map was created from 1100 images taken by a drone from the 4m height. Some of the images are available at https://www.kaggle.com/datasets/victorbloch/sugarbeetfield-paimio-2023-07-05-drone.
-![](P2720272_10.JPG)
+![](P2720272_10.JPG | width=100)
 
 
 ## Image analysis
