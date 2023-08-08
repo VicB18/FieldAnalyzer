@@ -1,11 +1,11 @@
 # FieldAnalyzer
 
-Instructions for taking drone and robot images from fields and software for field mapping nad analysis.
+Instructions for taking images from fields by a drone or a robot, and software for field mapping and analysis.
 
 ## Field mapping process
 1.	Using drone or robot for field monitoring
-2.	Mapping the field
-3.	Analyzing the field
+1.	Mapping the field
+1.	Analyzing the field
 
 ## Using drone for field monitoring
 ### Purchasing drone
