@@ -11,7 +11,8 @@ Instructions for taking drone and robot images from fields and software for fiel
 ## Using drone for field monitoring
 ### Purchasing drone
 A light drone with high resolution RGB camera. One additional battery for 0.5 ha of field.
-Examples
+
+_Examples:_
 
 DJI Mini 3 Pros, ~1000 euro, battery ~80 euro
 
@@ -40,4 +41,4 @@ In this example a 2ha field map was created from 1100 images taken by a drone fr
 Image analysis is based on an AI approach for detecting plants on images. The YOLOv5 CNN model was trained to detect different types of cultivars and distinguish them from weeds. The mapping program FieldOwl calls the detecting CNN and creates field maps with different plant features based on the detection result.
 In this example, the sugar beet plants are detected. Based on the detections, the plant counting and density are valuated.
 
-<a href=""><img src="P2720272_10.JPG" width="43%" height="43%"></a>  <a href=""><img src="G0022115_6.JPG" width="50%" height="50%"></a>
+<a href=""><img src="P2720272_10.JPG" width="42%" height="42%"></a>  <a href=""><img src="G0022115_6.JPG" width="50%" height="50%"></a>
