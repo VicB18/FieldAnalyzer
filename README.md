@@ -39,6 +39,24 @@ In this example a 2ha field map was created from 1100 images taken by a drone fr
 
 ## Image analysis
 Image analysis is based on an AI approach for detecting plants on images. The YOLOv5 CNN model was trained to detect different types of cultivars and distinguish them from weeds. The mapping program FieldOwl calls the detecting CNN and creates field maps with different plant features based on the detection result.
+
+Image analysis is based on an AI approach for detecting plants on images. The YOLOv5 CNN model was trained to detect different types of cultivars and distinguish them from weeds. The mapping program FieldOwl calls the detecting CNN and creates field maps with different plant features based on the detection result.
+
+To apply the sugar beet detecting model, the following programs must be installed.
+
+Python https://www.python.org/downloads/
+
+Yolov5 `pip install -r yolov5/requirements.txt`
+
+To resize original drone images for better detection by the sugar beet detecting model, the following script must be run.
+
+`python Main_ImageResize.py`
+
+To run the sugar beet detecting model:
+
+`python detect.py --source F:/FieldRobot/SjT2023_06_27/DroneResized/ --weights runs/train/yolo_SugarBeet/weights/best.pt --conf 0.25 --name F:/FieldRobot/SjT2023_06_27/yolo_SugarBeet` 
+
+
 In this example, the sugar beet plants are detected. Based on the detections, the plant counting and density are valuated.
 
 <a href=""><img src="P2720272_10.JPG" width="42%" height="42%"></a>  <a href=""><img src="G0022115_6.JPG" width="50%" height="50%"></a>
