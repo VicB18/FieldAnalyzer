@@ -44,9 +44,9 @@ Image analysis is based on an AI approach for detecting plants on images. The YO
 
 To apply the sugar beet detecting model, the following programs must be installed.
 
-Python https://www.python.org/downloads/
+Python: https://www.python.org/downloads/
 
-Yolov5 `pip install -r yolov5/requirements.txt`
+Yolov5: `pip install -r yolov5/requirements.txt`
 
 To resize original drone images for better detection by the sugar beet detecting model, the following script must be run.
 
@@ -54,7 +54,7 @@ To resize original drone images for better detection by the sugar beet detecting
 
 To run the sugar beet detecting model:
 
-`python detect.py --source F:/FieldRobot/SjT2023_06_27/DroneResized/ --weights runs/train/yolo_SugarBeet/weights/best.pt --conf 0.25 --name F:/FieldRobot/SjT2023_06_27/yolo_SugarBeet` 
+`python detect.py --source F:/FieldRobot/SjT2023_06_27/DroneResized/ --weights runs/train/yolo_SugarBeet/weights/yolov5s6_SugarBeet.pt --conf 0.5 --name F:/FieldRobot/SjT2023_06_27/DetectionResult` 
 
 
 In this example, the sugar beet plants are detected. Based on the detections, the plant counting and density are valuated.
