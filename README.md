@@ -30,10 +30,10 @@ https://www.youtube.com/watch?v=5xswOhhqrIQ
 ## Mapping a field
 Usually, programs creating maps by stitching together separated drone images are expensive, work long time, and distort images. All this is not required for a simple field analysis, which can be done based on separate images. A program FieldOwl is created for a simple analysis, and it is light, free and no installation is required.
 
-The program executable file is ´FieldOwl/bin/Debug/FieldOwl.exe´.
+The program executable file is `FieldOwl/bin/Debug/FieldOwl.exe`.
 
 In this example a 2ha field map was created from 1100 images taken by a drone from the 4m height. Some of the images are available at https://www.kaggle.com/datasets/victorbloch/sugarbeetfield-paimio-2023-07-05-drone.
-
+![](P2720272_10.JPG)
 
 
 ## Image analysis
