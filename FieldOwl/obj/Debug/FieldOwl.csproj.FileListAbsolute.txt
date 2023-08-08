@@ -1,0 +1,10 @@
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\obj\Debug\FieldOwl.csprojAssemblyReference.cache
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\obj\Debug\FieldOwl.Form1.resources
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\obj\Debug\FieldOwl.Properties.Resources.resources
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\obj\Debug\FieldOwl.csproj.GenerateResource.cache
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\obj\Debug\FieldOwl.csproj.CoreCompileInputs.cache
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\bin\Debug\FieldOwl.exe.config
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\bin\Debug\FieldOwl.exe
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\bin\Debug\FieldOwl.pdb
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\obj\Debug\FieldOwl.exe
+C:\Users\03138529\Dropbox\Luke\FieldAnalyzer\FieldOwl\obj\Debug\FieldOwl.pdb
