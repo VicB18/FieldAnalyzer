@@ -34,7 +34,7 @@ The program executable file is `FieldOwl/bin/Debug/FieldOwl.exe`.
 
 In this example a 2ha field map was created from 1100 images taken by a drone from the 4m height. Some of the images are available at https://www.kaggle.com/datasets/victorbloch/sugarbeetfield-paimio-2023-07-05-drone.
 
-<a href=""><img src="Map.jpg" width="50%" height="50%"></a>
+<a href=""><img src="Pics/SjT_SB_2023_07_05_Drone_Map.jpg" width="50%" height="50%"></a>
 
 ## Image analysis
 Image analysis is based on an AI approach for detecting plants on images. The YOLOv5 CNN model was trained to detect different types of cultivars and distinguish them from weeds. The mapping program FieldOwl calls the detecting CNN and creates field maps with different plant features based on the detection result.
@@ -58,4 +58,4 @@ To run the sugar beet detecting model:
 
 In this example, the sugar beet plants are detected. Based on the detections, the plant counting and density are valuated.
 
-<a href=""><img src="P2720272_10.JPG" width="42%" height="42%"></a>  <a href=""><img src="G0022115_6.JPG" width="50%" height="50%"></a>
+<a href=""><img src="Pics/P2720272_10.JPG" width="42%" height="42%"></a>  <a href=""><img src="Pics/G0022115_6.JPG" width="50%" height="50%"></a>
