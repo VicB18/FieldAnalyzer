@@ -3,7 +3,7 @@
 Instructions for taking images from fields by a drone or a robot, and software for field mapping and analysis.
 
 ## Field mapping process
-1.	Using drone or robot for field monitoring
+1.	Collecting field images by drone or robot
 1.	Mapping the field
 1.	Analyzing the field
 
