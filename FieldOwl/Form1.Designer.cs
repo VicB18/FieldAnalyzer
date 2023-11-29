@@ -33,15 +33,18 @@ namespace FieldOwl
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.StatusLabel = new System.Windows.Forms.Label();
             this.MapPicB = new System.Windows.Forms.PictureBox();
+            this.ImagePicB = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.MapPicB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImagePicB)).BeginInit();
             this.SuspendLayout();
             // 
             // SelectImagesBTN
             // 
             this.SelectImagesBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SelectImagesBTN.Location = new System.Drawing.Point(12, 12);
+            this.SelectImagesBTN.Location = new System.Drawing.Point(18, 18);
+            this.SelectImagesBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SelectImagesBTN.Name = "SelectImagesBTN";
-            this.SelectImagesBTN.Size = new System.Drawing.Size(137, 41);
+            this.SelectImagesBTN.Size = new System.Drawing.Size(206, 63);
             this.SelectImagesBTN.TabIndex = 0;
             this.SelectImagesBTN.Text = "Select images";
             this.SelectImagesBTN.UseVisualStyleBackColor = true;
@@ -55,32 +58,55 @@ namespace FieldOwl
             // 
             this.StatusLabel.AutoSize = true;
             this.StatusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatusLabel.Location = new System.Drawing.Point(164, 22);
+            this.StatusLabel.Location = new System.Drawing.Point(246, 34);
+            this.StatusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.StatusLabel.Name = "StatusLabel";
-            this.StatusLabel.Size = new System.Drawing.Size(19, 20);
+            this.StatusLabel.Size = new System.Drawing.Size(29, 29);
             this.StatusLabel.TabIndex = 1;
             this.StatusLabel.Text = "--";
             // 
             // MapPicB
             // 
-            this.MapPicB.Location = new System.Drawing.Point(12, 72);
+            this.MapPicB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.MapPicB.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.MapPicB.Location = new System.Drawing.Point(18, 111);
+            this.MapPicB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MapPicB.Name = "MapPicB";
-            this.MapPicB.Size = new System.Drawing.Size(419, 396);
+            this.MapPicB.Size = new System.Drawing.Size(694, 609);
             this.MapPicB.TabIndex = 2;
             this.MapPicB.TabStop = false;
             // 
+            // ImagePicB
+            // 
+            this.ImagePicB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ImagePicB.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ImagePicB.Location = new System.Drawing.Point(722, 111);
+            this.ImagePicB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ImagePicB.Name = "ImagePicB";
+            this.ImagePicB.Size = new System.Drawing.Size(636, 468);
+            this.ImagePicB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImagePicB.TabIndex = 3;
+            this.ImagePicB.TabStop = false;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 497);
+            this.ClientSize = new System.Drawing.Size(1376, 765);
+            this.Controls.Add(this.ImagePicB);
             this.Controls.Add(this.MapPicB);
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.SelectImagesBTN);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Field owl";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.MapPicB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImagePicB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,6 +118,7 @@ namespace FieldOwl
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label StatusLabel;
         private System.Windows.Forms.PictureBox MapPicB;
+        private System.Windows.Forms.PictureBox ImagePicB;
     }
 }
 
