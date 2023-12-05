@@ -57,3 +57,9 @@ To run the sugar beet detecting model:
 In this example, the sugar beet plants are detected. Based on the detections, the plant counting and density are valuated.
 
 <a href=""><img src="Pics/P2720272_10.JPG" width="42%" height="42%"></a>  <a href=""><img src="Pics/G0022115_6.JPG" width="50%" height="50%"></a>
+
+## Software for farmers
+
+A ready for using software Field Owl is in the folder `FieldOwl`. The program file is `FieldAnalyzer/FieldOwl/bin/Debug/FieldOwl.exe`.
+
+<a href=""><img src="Pics/GUI.jpg" width="100%" height="100%"></a>
