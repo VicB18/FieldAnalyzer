@@ -1,4 +1,4 @@
-function [b,k,R2,RMSE,NRMSE]=LinRegression(x,y,Ksigma,Draw) %en.wikipedia.org/wiki/Simple_linear_regression
+function [b,k,RMSE]=LinRegression(x,y,Ksigma,Draw)%,R2,NRMSE %en.wikipedia.org/wiki/Simple_linear_regression
 q=~isnan(x) & ~isnan(y);
 x=x(q); y=y(q);
 xm=mean(x);
@@ -7,11 +7,11 @@ Cov=mean(x.*y)-xm*ym;
 Var=mean(x.^2)-mean(x)^2;
 k=Cov/Var;
 b=ym-k*xm;
-R2=(Cov/sqrt(Var*(mean(y.^2)-mean(y)^2)))^2;
+% R2=(Cov/sqrt(Var*(mean(y.^2)-mean(y)^2)))^2;
 y_pred=b+k*x;
 % SEE=sqrt(sum((y-b-k*x).^2)/(length(x)-2));
 RMSE=sqrt(mean((y_pred-y).^2));
-NRMSE=sqrt(mean((y_pred-y).^2))./sqrt(mean(y.^2));
+% NRMSE=sqrt(mean((y_pred-y).^2))./sqrt(mean(y.^2));
 if Draw>0
     hold on;
     plot(x,y,'.');
