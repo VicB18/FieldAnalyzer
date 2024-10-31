@@ -1,6 +1,7 @@
 # FieldAnalyzer
 
 Instructions for taking images from fields by a drone or a robot, and software for field mapping and analysis.
+http://dx.doi.org/10.3390/agronomy14102215
 
 ## Field mapping process
 1.	Collecting field images by drone or robot
